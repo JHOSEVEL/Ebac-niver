@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>The best event of year</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/logo.png" alt="Bolo"> 
+            <p class="hero__text"> 
+                Faltam <span id="contador"></span> para a melhor data do ano! seu Aniversário JOSEVEL!
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Florianopolis - Santa Catarina
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        05/05/2024 ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Garanta Sua Presença nesta data especial</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--telao">
+        <h2 class="event__title">Programação</h2>
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Telão de cinema</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis esse voluptatibus blanditiis eveniet in ut qui quae architecto, quisquam quo ea nobis cupiditate! Corrupti at sequi provident molestias quam.</p>
+            </div>
+            <img class="event__image" src="https://s2-techtudo.glbimg.com/zWqGLxxwKpWa71_HSYMke8tVJpU=/0x0:1600x1060/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/C/F/U3NykJQ8WzRRI8Wg2x1w/sony-tela-3.jpg" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--bebidas event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bebidas</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis esse voluptatibus blanditiis eveniet in ut qui quae architecto, quisquam quo ea nobis cupiditate! Corrupti at sequi provident molestias quam.</p>
+            </div>
+            <img class="event__image" src="images/bebidas.png" alt="UI/UX">
+        </div>
+    </section>
+    <section class="event event--churras">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Aquele Churras</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis esse voluptatibus blanditiis eveniet in ut qui quae architecto, quisquam quo ea nobis cupiditate! Corrupti at sequi provident molestias quam.</p>
+            </div>
+            <img class="event__image" src="images/churrasco.webp" alt="Data Science">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>
